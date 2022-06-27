@@ -99,9 +99,6 @@ class SaleOffers(BaseApi):
         :return: The JSON response from API or error or None (if 204)
         :rtype: :py:class:`dict` or :py:data:`none`
         """
-        
-        _headers = {'Accept': 'application/vnd.allegro.public.v1+json',
-                    'Content-type': 'application/vnd.allegro.public.v1+json'}
 
         _params = {
           'name': text_query,
